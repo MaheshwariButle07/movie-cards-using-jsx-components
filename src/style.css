@@ -1,0 +1,20 @@
+.movie-card-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.adult-movie {
+    background-color: aquamarine;
+}
+
+.non-adult-movie {
+    background-color: blanchedalmond;
+}
+
+.heading {
+    text-align: center;
+    background-color: rgb(173, 110, 231);
+    padding: 10px;
+
+}

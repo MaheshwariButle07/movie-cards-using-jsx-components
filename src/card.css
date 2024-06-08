@@ -1,0 +1,40 @@
+.cardContainer{
+    background-color: skyblue;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+    border: 2px solid black;
+    box-shadow: 5px 5px 15px black;
+
+
+}
+
+.cardContainer:hover{
+    transition-delay: 0.5ms;
+    transform: scale(1.05); 
+}
+
+.cardImg{
+    width:90%;
+    margin: 10px;
+}
+
+.movie-name-reating{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.margin-between{
+    padding: 0 10px;
+}
+
+.mdatetime{
+    display: flex;
+
+}
